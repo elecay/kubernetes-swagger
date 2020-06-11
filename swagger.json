@@ -69956,7 +69956,8 @@
     "properties": {
      "lastTransitionTime": {
       "description": "Last time the condition transitioned from one status to another.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "A human readable message indicating details about the transition.",
@@ -70160,11 +70161,13 @@
     "properties": {
      "lastTransitionTime": {
       "description": "Last time the condition transitioned from one status to another.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "lastUpdateTime": {
       "description": "The last time this condition was updated.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "A human readable message indicating details about the transition.",
@@ -70366,7 +70369,8 @@
     "properties": {
      "lastTransitionTime": {
       "description": "The last time the condition transitioned from one status to another.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "A human readable message indicating details about the transition.",
@@ -70560,7 +70564,8 @@
     "properties": {
      "lastTransitionTime": {
       "description": "Last time the condition transitioned from one status to another.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "A human readable message indicating details about the transition.",
@@ -70838,11 +70843,13 @@
     "properties": {
      "lastTransitionTime": {
       "description": "Last time the condition transitioned from one status to another.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "lastUpdateTime": {
       "description": "The last time this condition was updated.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "A human readable message indicating details about the transition.",
@@ -71184,7 +71191,8 @@
     "properties": {
      "lastTransitionTime": {
       "description": "Last time the condition transitioned from one status to another.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "A human readable message indicating details about the transition.",
@@ -71461,7 +71469,8 @@
     "properties": {
      "lastTransitionTime": {
       "description": "Last time the condition transitioned from one status to another.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "A human readable message indicating details about the transition.",
@@ -71665,11 +71674,13 @@
     "properties": {
      "lastTransitionTime": {
       "description": "Last time the condition transitioned from one status to another.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "lastUpdateTime": {
       "description": "The last time this condition was updated.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "A human readable message indicating details about the transition.",
@@ -71871,7 +71882,8 @@
     "properties": {
      "lastTransitionTime": {
       "description": "The last time the condition transitioned from one status to another.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "A human readable message indicating details about the transition.",
@@ -72131,7 +72143,8 @@
     "properties": {
      "lastTransitionTime": {
       "description": "Last time the condition transitioned from one status to another.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "A human readable message indicating details about the transition.",
@@ -73327,7 +73340,8 @@
      },
      "lastScaleTime": {
       "description": "last time the HorizontalPodAutoscaler scaled the number of pods; used by the autoscaler to control how often the number of pods is changed.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "observedGeneration": {
       "description": "most recent generation observed by this autoscaler.",
@@ -73457,7 +73471,8 @@
     "properties": {
      "lastTransitionTime": {
       "description": "lastTransitionTime is the last time the condition transitioned from one status to another",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "message is a human-readable explanation containing details about the transition",
@@ -73576,7 +73591,8 @@
      },
      "lastScaleTime": {
       "description": "lastScaleTime is the last time the HorizontalPodAutoscaler scaled the number of pods, used by the autoscaler to control how often the number of pods is changed.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "observedGeneration": {
       "description": "observedGeneration is the most recent generation observed by this autoscaler.",
@@ -73795,11 +73811,13 @@
     "properties": {
      "lastProbeTime": {
       "description": "Last time the condition was checked.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "lastTransitionTime": {
       "description": "Last time the condition transit from one status to another.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "Human readable message indicating details about last transition.",
@@ -73903,7 +73921,8 @@
      },
      "completionTime": {
       "description": "Represents time when the job was completed. It is not guaranteed to be set in happens-before order across separate operations. It is represented in RFC3339 form and is in UTC.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "conditions": {
       "description": "The latest available observations of an object's current state. More info: https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/",
@@ -73921,7 +73940,8 @@
      },
      "startTime": {
       "description": "Represents time when the job was acknowledged by the job controller. It is not guaranteed to be set in happens-before order across separate operations. It is represented in RFC3339 form and is in UTC.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "succeeded": {
       "description": "The number of pods which reached phase Succeeded.",
@@ -74048,7 +74068,8 @@
      },
      "lastScheduleTime": {
       "description": "Information when was the last time the job was successfully scheduled.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      }
     }
    },
@@ -74183,7 +74204,8 @@
      },
      "lastScheduleTime": {
       "description": "Information when was the last time the job was successfully scheduled.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      }
     }
    },
@@ -74238,7 +74260,8 @@
     "properties": {
      "lastUpdateTime": {
       "description": "timestamp for the last update to this condition",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "human readable message with details about the request state",
@@ -75083,7 +75106,8 @@
     "properties": {
      "startedAt": {
       "description": "Time at which the container was last (re-)started",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      }
     }
    },
@@ -75104,7 +75128,8 @@
      },
      "finishedAt": {
       "description": "Time at which the container last terminated",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "Message regarding the last termination of the container",
@@ -75121,7 +75146,8 @@
      },
      "startedAt": {
       "description": "Time at which previous execution of the container started",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      }
     }
    },
@@ -75486,7 +75512,8 @@
      },
      "firstTimestamp": {
       "description": "The time at which the event was first recorded. (Time of server receipt is in TypeMeta.)",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "involvedObject": {
       "description": "The object that this event is about.",
@@ -75498,7 +75525,8 @@
      },
      "lastTimestamp": {
       "description": "The time at which the most recent occurrence of this event was recorded.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "A human-readable description of the status of this operation.",
@@ -76361,11 +76389,13 @@
     "properties": {
      "lastHeartbeatTime": {
       "description": "Last time we got an update on a given condition.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "lastTransitionTime": {
       "description": "Last time the condition transit from one status to another.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "Human readable message indicating details about last transition.",
@@ -76786,11 +76816,13 @@
     "properties": {
      "lastProbeTime": {
       "description": "Last time we probed the condition.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "lastTransitionTime": {
       "description": "Last time the condition transitioned from one status to another.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "Human-readable message indicating details about last transition.",
@@ -77221,11 +77253,13 @@
     "properties": {
      "lastProbeTime": {
       "description": "Last time we probed the condition.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "lastTransitionTime": {
       "description": "Last time the condition transitioned from one status to another.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "Human-readable message indicating details about last transition.",
@@ -77546,7 +77580,8 @@
      },
      "startTime": {
       "description": "RFC 3339 date and time at which the object was acknowledged by the Kubelet. This is before the Kubelet pulled the container image(s) for the pod.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      }
     }
    },
@@ -77883,7 +77918,8 @@
     "properties": {
      "lastTransitionTime": {
       "description": "The last time the condition transitioned from one status to another.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "A human readable message indicating details about the transition.",
@@ -78818,7 +78854,8 @@
      },
      "timeAdded": {
       "description": "TimeAdded represents the time at which the taint was added. It is only written for NoExecute taints.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "value": {
       "description": "Required. The taint value corresponding to the taint key.",
@@ -79098,11 +79135,13 @@
      },
      "deprecatedFirstTimestamp": {
       "description": "Deprecated field assuring backward compatibility with core.v1 Event type",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "deprecatedLastTimestamp": {
       "description": "Deprecated field assuring backward compatibility with core.v1 Event type",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "deprecatedSource": {
       "description": "Deprecated field assuring backward compatibility with core.v1 Event type",
@@ -79279,7 +79318,8 @@
     "properties": {
      "lastTransitionTime": {
       "description": "Last time the condition transitioned from one status to another.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "A human readable message indicating details about the transition.",
@@ -79486,11 +79526,13 @@
     "properties": {
      "lastTransitionTime": {
       "description": "Last time the condition transitioned from one status to another.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "lastUpdateTime": {
       "description": "The last time this condition was updated.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "A human readable message indicating details about the transition.",
@@ -80311,7 +80353,8 @@
     "properties": {
      "lastTransitionTime": {
       "description": "The last time the condition transitioned from one status to another.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "A human readable message indicating details about the transition.",
@@ -80893,7 +80936,8 @@
       "description": "DisruptedPods contains information about pods whose eviction was processed by the API server eviction subresource handler but has not yet been observed by the PodDisruptionBudget controller. A pod will be in this map from the time when the API server processed the eviction request to the time when the pod is seen by PDB controller as having been marked for deletion (or after a timeout). The key in the map is the name of the pod and the value is the time when the API server processed the eviction request. If the deletion didn't occur and a pod is still there it will be removed from the list automatically by PodDisruptionBudget controller after some time. If everything goes smooth this map should be empty for the most of the time. Large number of entries in the map may indicate problems with pod deletions.",
       "type": "object",
       "additionalProperties": {
-       "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+       "type": "string",
+      "format": "date-time"
       }
      },
      "disruptionsAllowed": {
@@ -82475,7 +82519,8 @@
      },
      "time": {
       "description": "Time the error was encountered.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      }
     }
    },
@@ -82603,7 +82648,8 @@
     "properties": {
      "lastTransitionTime": {
       "description": "Last time the condition transitioned from one status to another.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "Human-readable message indicating details about last transition.",
@@ -83488,7 +83534,8 @@
      },
      "creationTimestamp": {
       "description": "CreationTimestamp is a timestamp representing the server time when this object was created. It is not guaranteed to be set in happens-before order across separate operations. Clients may not set this value. It is represented in RFC3339 form and is in UTC.\n\nPopulated by the system. Read-only. Null for lists. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "deletionGracePeriodSeconds": {
       "description": "Number of seconds allowed for this object to gracefully terminate before it will be removed from the system. Only set when deletionTimestamp is also set. May only be shortened. Read-only.",
@@ -83497,7 +83544,8 @@
      },
      "deletionTimestamp": {
       "description": "DeletionTimestamp is RFC 3339 date and time at which this resource will be deleted. This field is set by the server when a graceful deletion is requested by the user, and is not directly settable by a client. The resource is expected to be deleted (no longer visible from resource lists, and not reachable by name) after the time in this field, once the finalizers list is empty. As long as the finalizers list contains items, deletion is blocked. Once the deletionTimestamp is set, this value may not be unset or be set further into the future, although it may be shortened or the resource may be deleted prior to this time. For example, a user may request that a pod is deleted in 30 seconds. The Kubelet will react by sending a graceful termination signal to the containers in the pod. After that 30 seconds, the Kubelet will send a hard termination signal (SIGKILL) to the container and after cleanup, remove the pod from the API. In the presence of network partitions, this object may still exist after this timestamp, until an administrator or automated process can determine the resource is fully terminated. If not set, graceful deletion of the object has not been requested.\n\nPopulated by the system when a graceful deletion is requested. Read-only. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "finalizers": {
       "description": "Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.",
@@ -83981,7 +84029,8 @@
     "properties": {
      "lastTransitionTime": {
       "description": "Last time the condition transitioned from one status to another.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
+      "type": "string",
+      "format": "date-time"
      },
      "message": {
       "description": "Human-readable message indicating details about last transition.",
