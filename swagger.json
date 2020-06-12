@@ -73667,7 +73667,7 @@
      },
      "targetValue": {
       "description": "targetValue is the target value of the metric (as a quantity).",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+    "type": "string"
      }
     }
    },
@@ -73681,7 +73681,7 @@
     "properties": {
      "currentValue": {
       "description": "currentValue is the current value of the metric (as a quantity).",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+    "type": "string"
      },
      "metricName": {
       "description": "metricName is the name of the metric in question.",
@@ -73706,7 +73706,7 @@
      },
      "targetAverageValue": {
       "description": "targetAverageValue is the target value of the average of the metric across all relevant pods (as a quantity)",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+    "type": "string"
      }
     }
    },
@@ -73719,7 +73719,7 @@
     "properties": {
      "currentAverageValue": {
       "description": "currentAverageValue is the current value of the average of the metric across all relevant pods (as a quantity)",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+    "type": "string"
      },
      "metricName": {
       "description": "metricName is the name of the metric in question",
@@ -73744,7 +73744,7 @@
      },
      "targetAverageValue": {
       "description": "targetAverageValue is the target value of the average of the resource metric across all relevant pods, as a raw value (instead of as a percentage of the request), similar to the \"pods\" metric source type.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+    "type": "string"
      }
     }
    },
@@ -73762,7 +73762,7 @@
      },
      "currentAverageValue": {
       "description": "currentAverageValue is the current value of the average of the resource metric across all relevant pods, as a raw value (instead of as a percentage of the request), similar to the \"pods\" metric source type. It will always be set, regardless of the corresponding metric specification.",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+    "type": "string"
      },
      "name": {
       "description": "name is the name of the resource in question.",
@@ -75285,7 +75285,7 @@
      },
      "sizeLimit": {
       "description": "Total amount of local storage required for this EmptyDir volume. The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. The default is nil which means that the limit is undefined. More info: http://kubernetes.io/docs/user-guide/volumes#emptydir",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+    "type": "string"
      }
     }
    },
@@ -76075,35 +76075,35 @@
       "description": "Default resource requirement limit value by resource name if resource limit is omitted.",
       "type": "object",
       "additionalProperties": {
-       "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+      "type": "string"
       }
      },
      "defaultRequest": {
       "description": "DefaultRequest is the default resource requirement request value by resource name if resource request is omitted.",
       "type": "object",
       "additionalProperties": {
-       "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+      "type": "string"
       }
      },
      "max": {
       "description": "Max usage constraints on this kind by resource name.",
       "type": "object",
       "additionalProperties": {
-       "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+      "type": "string"
       }
      },
      "maxLimitRequestRatio": {
       "description": "MaxLimitRequestRatio if specified, the named resource must have a request and limit that are both non-zero where limit divided by request is less than or equal to the enumerated value; this represents the max burst for the named resource.",
       "type": "object",
       "additionalProperties": {
-       "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+      "type": "string"
       }
      },
      "min": {
       "description": "Min usage constraints on this kind by resource name.",
       "type": "object",
       "additionalProperties": {
-       "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+      "type": "string"
       }
      },
      "type": {
@@ -76583,14 +76583,14 @@
       "description": "Allocatable represents the resources of a node that are available for scheduling. Defaults to Capacity.",
       "type": "object",
       "additionalProperties": {
-       "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+      "type": "string"
       }
      },
      "capacity": {
       "description": "Capacity represents the total resources of a node. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#capacity",
       "type": "object",
       "additionalProperties": {
-       "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+      "type": "string"
       }
      },
      "conditions": {
@@ -76920,7 +76920,7 @@
       "description": "Represents the actual resources of the underlying volume.",
       "type": "object",
       "additionalProperties": {
-       "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+      "type": "string"
       }
      },
      "conditions": {
@@ -77014,7 +77014,7 @@
       "description": "A description of the persistent volume's resources and capacity. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#capacity",
       "type": "object",
       "additionalProperties": {
-       "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+      "type": "string"
       }
      },
      "cephfs": {
@@ -78053,7 +78053,7 @@
      },
      "divisor": {
       "description": "Specifies the output format of the exposed resources, defaults to \"1\"",
-      "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+    "type": "string"
      },
      "resource": {
       "description": "Required: resource to select",
@@ -78134,7 +78134,7 @@
       "description": "Hard is the set of desired hard limits for each named resource. More info: https://kubernetes.io/docs/concepts/policy/resource-quotas/",
       "type": "object",
       "additionalProperties": {
-       "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+      "type": "string"
       }
      },
      "scopes": {
@@ -78153,14 +78153,14 @@
       "description": "Hard is the set of enforced hard limits for each named resource. More info: https://kubernetes.io/docs/concepts/policy/resource-quotas/",
       "type": "object",
       "additionalProperties": {
-       "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+      "type": "string"
       }
      },
      "used": {
       "description": "Used is the current observed total usage of the resource in the namespace.",
       "type": "object",
       "additionalProperties": {
-       "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+      "type": "string"
       }
      }
     }
@@ -78172,14 +78172,14 @@
       "description": "Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/",
       "type": "object",
       "additionalProperties": {
-       "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+      "type": "string"
       }
      },
      "requests": {
       "description": "Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/",
       "type": "object",
       "additionalProperties": {
-       "$ref": "#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+      "type": "string"
       }
      }
     }
